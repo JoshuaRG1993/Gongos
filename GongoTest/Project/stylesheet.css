@@ -1,0 +1,128 @@
+.bottomHalf {
+    background-color: lightgray;
+    height: 50%;
+}
+
+.bottomHalf h1 {
+    color: #FF831F;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+ul.services li {
+    background-color: white;
+    border-color: gray;
+    border-radius: 1%;
+    box-shadow: 3px 5px gray;
+    display: inline-block;
+    list-style-type: none;
+    height: 310px;
+    width: 180px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+li > p {
+    color:gray;
+    line-height: 20px;
+    margin-left: 15px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-family: 'sans-serif';
+}
+
+.layerTwoBox {
+    background-color: white;
+    background-position: center;
+    border-color: #FF831F;
+    border-radius: 10%;
+    border-style: solid;
+    bottom: 10px;
+    height: 40px;
+    margin-left: 15px;
+    position: relative;
+    width: 40px;
+    z-index: 2;
+}
+
+.layerTwoBox1 { background-image: url(media/smallPicture1.png); }
+
+.layerTwoBox2 { background-image: url(media/smallPicture2.png); }
+
+.layerTwoBox3 { background-image: url(media/smallPicture3.png); }
+
+.layerTwoBox4 { background-image: url(media/smallPicture4.png); }
+
+
+h3 {
+    color: #FF831F;
+    margin-left: 15px;
+}
+
+.moreButton {
+    color: black;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+#circle {
+    height: 35px;
+    width: 35px;
+    background-color: #FF831F;
+    border-radius: 50%;
+    display: block;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#contactButton {
+    background-color: #FF831F;
+    border-style: none;
+    margin-left: 10%;
+    height: 30px;
+    width: 90px;
+    font-size: 12px;
+    color: white;
+}
+
+#header1 {
+    font-family: sans-serif;
+    margin-left: 10%;
+}
+
+#solutionBox {
+    background-color: white;
+    float: left;
+    height: 325px;
+    width: 300px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.topHalf {
+    background-size: cover;
+    background-image: url(media/office.jpeg);
+    height: 50%;
+    width: 100%;
+}
+
+.topHalf p {
+    margin-left: 25px;
+    margin-right: 25px;
+    color: gray;
+}
+
+#wrapper {
+    height: 1200px;
+	min-width: 700px;
+	max-width: 1024px;
+    position: center;
+    margin: auto;
+}
+
+img {
+    height: 500px;
+    width: 1024px;
+}
